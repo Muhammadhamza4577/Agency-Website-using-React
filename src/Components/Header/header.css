@@ -1,0 +1,128 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 65px;
+    justify-content: center;
+    border-bottom: 1px solid #363739;
+}
+.logo {
+    width: 25%;
+}
+.Nav-menu {
+    width: 100%;
+    padding-left: 96px;
+}
+.Nav-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.Nav-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+.inner-service {
+    position: absolute;
+    top: 6.5rem;
+    right: 37.5rem;
+    width: 200px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #fff;
+    text-decoration: none;
+    border: 1px solid gray;
+}
+.inner-service::before {
+    content: "";
+    position: absolute;
+    top: -0.7rem;
+    right: 5.1rem;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.icons {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search a, .atc a {
+    color: #fff;
+    font-size: 20px;
+    padding: 14px;
+}
+.get-btn {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.get-btn a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background: #00b7df;
+    padding: 12px 26px;
+    text-decoration: none;
+    position:relative;
+    overflow:hidden;
+}
+.get-btn a:before {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background : #fff;
+    left: -80px;
+    top: -40px;
+    transform: rotate(37deg);
+    transition: all .4s;
+    opacity: 0.2;
+  }
+  
+  .get-btn a:hover:before {
+    left:95%;
+  }
+
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f2f2f2;
+  }
